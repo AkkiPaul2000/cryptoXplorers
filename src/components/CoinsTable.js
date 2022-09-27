@@ -31,7 +31,7 @@ function CoinsTable() {
     useEffect(() => {
         fetchCoins();
       }, [currency]);
-      console.log(coins)
+      // console.log(coins)
 
     const darkTheme=createTheme({
         palette:{

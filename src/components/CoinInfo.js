@@ -46,14 +46,35 @@ export const options = {
 function CoinInfo({coin}) {
     const [historicData, setHistoricData] = useState()
     const [days, setDays] = useState(1)
-
     const {currency}=CryptoState()
+    const [mini, setMini] = useState(9999999999)
+    const [maxi, setMaxi] = useState(0)
+    
 
     const fetchHistoricData=async()=>{
         const {data}=await axios.get(HistoricalChart(coin.id,days,currency))
         // const {data}=await axios.get(HistoricalChart(coin.id,days,currency?currency:"INR"))
 
         setHistoricData(data.prices)
+        let prices=data.prices
+        
+        let minimum=Number.MAX_VALUE
+        let maximum=0
+        if(prices!=undefined){
+         console.log(coin);
+        prices.map((coin) => {
+          
+          if(minimum>coin[1]){
+            minimum=coin[1]
+          }
+          if(maximum<coin[1]){
+            maximum=coin[1]
+          }
+        })
+        setMaxi(maximum);
+        setMini(minimum)
+      }
+       
     }
 
     useEffect(() => {
@@ -102,9 +123,7 @@ function CoinInfo({coin}) {
                         <CircularProgress
                         style={{color:"gold"}}
                         size={250}
-                        thickness={1}/>
-                       
-                        
+                        thickness={1}/> 
                     ):(
                         
                          <>
@@ -112,10 +131,6 @@ function CoinInfo({coin}) {
 
                         {/* {historicData.map(coin=>{
                           let date=new Date(coin[0])
-
-
-
-
 
                           console.log(date.getHours())
                             
@@ -132,11 +147,11 @@ function CoinInfo({coin}) {
                                 }),
                             }}/> */}
 
-
                             <Line
                             width={600} height={250}
               data={{
                 labels: historicData.map((coin) => {
+                  
                   let date = new Date(coin[0]);
                   let time =
                     date.getHours() > 12
@@ -161,7 +176,7 @@ function CoinInfo({coin}) {
                 },
               }}
             />
-            
+
             <div
             style={{
               display:"flex",
@@ -171,8 +186,8 @@ function CoinInfo({coin}) {
               width:"100%",
             }}
             >
-            {/* <div style={{backgroundColor:"yellow", height:20,width:100}}></div> */}
-            <BarLevel/>
+
+            <BarLevel min={mini} max={maxi} days={days} />
             </div>
             <div
             style={{
@@ -184,7 +199,6 @@ function CoinInfo({coin}) {
             }}
             >
             
-
             {chartDays.map(day=>(
               <SelectButtons
               key={day.value}
@@ -196,12 +210,9 @@ function CoinInfo({coin}) {
             </div>
             <div>
              <img src='https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F013%2F564%2Fdoge.jpg' />
-            </div>
-
-                        </>
+            </div></>
                     )
                 }
-
 
                 {/* Button */}
             

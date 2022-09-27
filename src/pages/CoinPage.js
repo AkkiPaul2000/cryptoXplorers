@@ -21,12 +21,14 @@ function CoinPage() {
   const fetchCoin=async()=>{
     const {data}=await axios.get(SingleCoin(id))
     setCoin(data)
+    console.log(data.price);
   }
 
-     console.log(coin?.description)
-
+    //  console.log(coin?.description)
   useEffect(() => {
     fetchCoin();
+    console.log(coin?.market_data);
+
   }, [])
 
   const useStyles=makeStyles((theme)=>({
