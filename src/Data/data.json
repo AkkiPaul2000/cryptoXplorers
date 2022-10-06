@@ -1,0 +1,883 @@
+[
+    {
+        "name": "ens",
+        "currentTreasuryUSD": 1114440067.5932775,
+        "currentLiquidTreasuryUSD": 197530313.86398295,
+        "metadata": {
+            "name": "ENS",
+            "website": "https://ens.domains",
+            "treasuries": [
+                "0x283Af0B28c62C092C9727F1Ee09c02CA627EB7F5",
+                "0xCF60916b6CB4753f58533808fA610FcbD4098Ec0",
+                "0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7",
+                "0xd7A029Db2585553978190dB5E85eC724Aa4dF23f"
+            ]
+        }
+    },
+    {
+        "name": "apollo",
+        "currentTreasuryUSD": 2951610.03,
+        "currentLiquidTreasuryUSD": 2951610.03,
+        "metadata": {
+            "name": "Apollo",
+            "website": "https://apollo.farm",
+            "governanceSite": "https://safe.apollo.farm",
+            "treasuries": []
+        }
+    },
+    {
+        "name": "1inch",
+        "currentTreasuryUSD": 15731742.881583506,
+        "currentLiquidTreasuryUSD": 15731742.881583506,
+        "metadata": {
+            "name": "1inch",
+            "website": "https://1inch.io",
+            "governanceForum": "https://gov.1inch.io",
+            "governanceSite": "https://snapshot.org/#/1inch.eth",
+            "category": "app",
+            "treasuries": [
+                "0x7951c7ef839e26F63DA87a42C9a87986507f1c07"
+            ]
+        }
+    },
+    {
+        "name": "aavegotchi",
+        "currentTreasuryUSD": 2947264.0821542297,
+        "currentLiquidTreasuryUSD": 2947264.0821542297,
+        "metadata": {
+            "name": "Aavegotchi",
+            "website": "https://aavegotchi.com/",
+            "governanceForum": "https://dao.aavegotchi.com/",
+            "governanceSite": "https://snapshot.org/#/aavegotchi.eth",
+            "category": "app",
+            "treasuries": [
+                "0xffe6280ae4e864d9af836b562359fd828ece8020"
+            ]
+        }
+    },
+    {
+        "name": "abracadabra",
+        "currentTreasuryUSD": 31938976.397022065,
+        "currentLiquidTreasuryUSD": 31938976.397022065,
+        "metadata": {
+            "name": "Abracadabra",
+            "website": "https://abracadabra.money/",
+            "governanceSite": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth",
+            "governanceForum": "https://forum.abracadabra.money/",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x5a7c5505f3cfb9a0d9a8493ec41bf27ee48c406d"
+            ]
+        }
+    },
+    {
+        "name": "alchemix",
+        "currentTreasuryUSD": 4249344.92418478,
+        "currentLiquidTreasuryUSD": 4249344.92418478,
+        "metadata": {
+            "name": "Alchemix",
+            "website": "https://alchemix.fi/",
+            "governanceSite": "https://snapshot.org/#/alchemixstakers.eth",
+            "governanceForum": "https://forum.alchemix.fi",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x8392f6669292fa56123f71949b52d883ae57e225"
+            ]
+        }
+    },
+    {
+        "name": "api3",
+        "currentTreasuryUSD": 52265241.35583248,
+        "currentLiquidTreasuryUSD": 52265241.35583248,
+        "metadata": {
+            "name": "API3",
+            "website": "https://api3.org",
+            "governanceSite": null,
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0xe7aF7c5982e073aC6525a34821fe1B3e8E432099",
+                "0xD9F80Bdb37E6Bad114D747E60cE6d2aaF26704Ae",
+                "0x556ECbb0311D350491Ba0EC7E019c354D7723CE0"
+            ]
+        }
+    },
+    {
+        "name": "aragon",
+        "currentTreasuryUSD": 123079734.83855122,
+        "currentLiquidTreasuryUSD": 123079734.83855122,
+        "metadata": {
+            "name": "Aragon",
+            "website": "https://aragon.org/",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0xfb633f47a84a1450ee0413f2c32dc1772ccaea3e"
+            ]
+        }
+    },
+    {
+        "name": "babylon",
+        "currentTreasuryUSD": 29762.528799164967,
+        "currentLiquidTreasuryUSD": 29762.528799164967,
+        "metadata": {
+            "name": "Babylon Finance",
+            "website": "https://www.babylon.finance/",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0xD7AAf4676F0F52993cb33aD36784BF970f0E1259"
+            ]
+        }
+    },
+    {
+        "name": "badger",
+        "currentTreasuryUSD": 53961.361539729645,
+        "currentLiquidTreasuryUSD": 53961.361539729645,
+        "metadata": {
+            "name": "Badger",
+            "description": "Badger DAO is dedicated to building products and infrastructure to bring Bitcoin to DeFi.",
+            "website": "https://badger.finance",
+            "governanceForum": "https://forum.badger.finance",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/badgerdao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x4441776e6a5d61fa024a5117bfc26b953ad1f425",
+                "0x5a54ca44e8f5a1a695f8621f15bfa159a140bb61",
+                "0x8de82c4c968663a0284b01069dde6ef231d0ef9b",
+                "0xb65cef03b9b89f99517643226d76e286ee999e77"
+            ]
+        }
+    },
+    {
+        "name": "balancer",
+        "currentTreasuryUSD": 34914613.9616857,
+        "currentLiquidTreasuryUSD": 34914613.9616857,
+        "metadata": {
+            "name": "Balancer",
+            "website": "https://balancer.finance",
+            "governanceSite": null,
+            "governanceForum": "https://forum.balancer.fi/",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+                "0xce88686553686DA562CE7Cea497CE749DA109f9F"
+            ]
+        }
+    },
+    {
+        "name": "bankless",
+        "currentTreasuryUSD": 2189761.283638865,
+        "currentLiquidTreasuryUSD": 2189761.283638865,
+        "metadata": {
+            "name": "Bankless DAO",
+            "website": "https://www.bankless.community/",
+            "governanceForum": "https://forum.bankless.community/",
+            "governanceSite": "https://snapshot.org/#/banklessvault.eth",
+            "category": "app",
+            "treasuries": [
+                "0xf26d1bb347a59f6c283c53156519cc1b1abaca51"
+            ]
+        }
+    },
+    {
+        "name": "barnbridge",
+        "currentTreasuryUSD": 3907.447060213647,
+        "currentLiquidTreasuryUSD": 3907.447060213647,
+        "metadata": {
+            "name": "BarnBridge",
+            "website": "https://barnbridge.com/",
+            "governanceSite": null,
+            "governanceForum": "https://forum.barnbridge.com/",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x4cAE362D7F227e3d306f70ce4878E245563F3069"
+            ]
+        }
+    },
+    {
+        "name": "bitdao",
+        "currentTreasuryUSD": 1298046955.8233526,
+        "currentLiquidTreasuryUSD": 1298046955.8233526,
+        "metadata": {
+            "name": "BitDAO",
+            "website": "https://bitdao.io",
+            "governanceSite": null,
+            "governanceForum": "https://discourse.bitdao.io/",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x78605Df79524164911C144801f41e9811B7DB73D"
+            ]
+        }
+    },
+    {
+        "name": "compound",
+        "currentTreasuryUSD": 151795830.33153242,
+        "currentLiquidTreasuryUSD": 37140468.70870138,
+        "metadata": {
+            "name": "Compound",
+            "website": "https://compound.finance",
+            "governanceSite": null,
+            "governanceForum": "https://www.comp.xyz",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+                "0x2775b1c75658Be0F640272CCb8c72ac986009e38"
+            ]
+        }
+    },
+    {
+        "name": "decentraland",
+        "currentTreasuryUSD": 28800252.491365578,
+        "currentLiquidTreasuryUSD": 28800252.491365578,
+        "metadata": {
+            "name": "Decentraland",
+            "website": "https://decentraland.org/",
+            "governanceSite": null,
+            "governanceForum": "https://forum.decentraland.org/c/governance/13",
+            "category": "app",
+            "treasuries": [
+                "0x9a6ebe7e2a7722f8200d0ffb63a1f6406a0d7dce"
+            ]
+        }
+    },
+    {
+        "name": "gitcoin",
+        "currentTreasuryUSD": 96471122.34884809,
+        "currentLiquidTreasuryUSD": 48800352.008904964,
+        "metadata": {
+            "name": "Gitcoin",
+            "website": "https://gitcoin.co",
+            "governanceForum": "https://gov.gitcoin.co",
+            "governanceSite": "https://snapshot.org/#/gitcoindao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518",
+                "0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
+                "0x44aa9c5a034c1499ec27906e2d427b704b567ffe"
+            ]
+        }
+    },
+    {
+        "name": "fei",
+        "currentTreasuryUSD": 95359102.55374299,
+        "currentLiquidTreasuryUSD": 95359102.55374299,
+        "metadata": {
+            "name": "Fei",
+            "website": "https://fei.money",
+            "governanceForum": "https://tribe.fei.money",
+            "governanceSite": "https://snapshot.org/#/fei.eth",
+            "category": "app",
+            "treasuries": [
+                "0x8d5ed43dca8c2f7dfb20cf7b53cc7e593635d7b9",
+                "0xd51dba7a94e1adea403553a8235c302cebf41a3c"
+            ]
+        }
+    },
+    {
+        "name": "idle",
+        "currentTreasuryUSD": 854618.886524947,
+        "currentLiquidTreasuryUSD": 854618.886524947,
+        "metadata": {
+            "name": "Idle DAO",
+            "description": "Idle is a decentralized protocol dedicated to bringing automatic asset allocation and yield aggregation to the interest-bearing tokens economy.",
+            "website": "https://idle.finance",
+            "governanceForum": "https://gov.idle.finance",
+            "governanceSite": "https://snapshot.org/#/idlefinance.eth",
+            "category": "app",
+            "treasuries": [
+                "0x69a62C24F16d4914a48919613e8eE330641Bcb94",
+                "0xbecc659bfc6edca552fa1a67451cc6b38a0108e4",
+                "0x076ff8e6402b02855ff82119b53e59bbdd67f0ee",
+                "0x107A369bc066c77FF061c7d2420618a6ce31B925",
+                "0xb0aA1f98523Ec15932dd5fAAC5d86e57115571C7",
+                "0x031f71B5369c251a6544c41CE059e6b3d61e42C6",
+                "0xFb3bD022D5DAcF95eE28a6B07825D4Ff9C5b3814",
+                "0xe8eA8bAE250028a8709A3841E0Ae1a44820d677b"
+            ]
+        }
+    },
+    {
+        "name": "index-coop",
+        "currentTreasuryUSD": 5544008.539059846,
+        "currentLiquidTreasuryUSD": 5544008.539059846,
+        "metadata": {
+            "name": "Index Coop",
+            "website": "https://indexcoop.com",
+            "governanceForum": "https://gov.indexcoop.com",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/index-coop.eth",
+            "category": "app",
+            "treasuries": [
+                "0x9467cfADC9DE245010dF95Ec6a585A506A8ad5FC"
+            ]
+        }
+    },
+    {
+        "name": "keeper",
+        "currentTreasuryUSD": 45687792.388543345,
+        "currentLiquidTreasuryUSD": 45687792.388543345,
+        "metadata": {
+            "name": "KeeperDAO",
+            "website": "https://keeperdao.com",
+            "governanceForum": "https://forum.keeperdao.com",
+            "governanceSite": "https://snapshot.org/#/rook.eth",
+            "category": "app",
+            "treasuries": [
+                "0x9a67f1940164d0318612b497e8e6038f902a00a4"
+            ]
+        }
+    },
+    {
+        "name": "lao",
+        "currentTreasuryUSD": 7681769.231466591,
+        "currentLiquidTreasuryUSD": 7681769.231466591,
+        "metadata": {
+            "name": "The LAO",
+            "website": "https://linkswap.app",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0x8f56682a50becb1df2fb8136954f2062871bc7fc"
+            ]
+        }
+    },
+    {
+        "name": "lido",
+        "currentTreasuryUSD": 269076775.5922044,
+        "currentLiquidTreasuryUSD": 269076775.5922044,
+        "metadata": {
+            "name": "Lido",
+            "website": "https://lido.fi",
+            "governanceForum": "https://research.lido.fi",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+            ]
+        }
+    },
+    {
+        "name": "linkswap",
+        "currentTreasuryUSD": 878.4714905320345,
+        "currentLiquidTreasuryUSD": 878.4714905320345,
+        "metadata": {
+            "name": "Linkswap",
+            "website": "https://linkswap.app",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/yflink.eth",
+            "category": "app",
+            "treasuries": [
+                "0xE69A81b96FBF5Cb6CAe95d2cE5323Eff2bA0EAE4"
+            ]
+        }
+    },
+    {
+        "name": "metacartel-ventures",
+        "currentTreasuryUSD": 6369120.489114745,
+        "currentLiquidTreasuryUSD": 6369120.489114745,
+        "metadata": {
+            "name": "MetaCartel Ventures",
+            "website": "https://metacartel.xyz",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0x4570b4faf71e23942b8b9f934b47ccedf7540162"
+            ]
+        }
+    },
+    {
+        "name": "mstable",
+        "currentTreasuryUSD": 6311729.4107308285,
+        "currentLiquidTreasuryUSD": 6311729.4107308285,
+        "metadata": {
+            "name": "mStable",
+            "website": "https://mstable.org",
+            "governanceSite": null,
+            "governanceForum": "https://forum.mstable.org",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x3dd46846eed8D147841AE162C8425c08BD8E1b41",
+                "0xfcf455d6eb48b3289a712c0b3bc3c7ee0b0ee4c6",
+                "0x67905d3e4fec0c85dce68195f66dc8eb32f59179"
+            ]
+        }
+    },
+    {
+        "name": "nexus",
+        "currentTreasuryUSD": 15041998.411823481,
+        "currentLiquidTreasuryUSD": 15041998.411823481,
+        "metadata": {
+            "name": "Nexus Mutual",
+            "website": "https://nexusmutual.io/",
+            "governanceSite": null,
+            "governanceForum": "https://forum.nexusmutual.io/",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x586b9b2F8010b284A0197f392156f1A7Eb5e86e9"
+            ]
+        }
+    },
+    {
+        "name": "nftx",
+        "currentTreasuryUSD": 17052492.86951914,
+        "currentLiquidTreasuryUSD": 17052492.86951914,
+        "metadata": {
+            "name": "NFTX",
+            "website": "https://nftx.io/",
+            "governanceForum": "https://forum.nftx.org/",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0x40d73df4f99bae688ce3c23a01022224fe16c7b2"
+            ]
+        }
+    },
+    {
+        "name": "nouns",
+        "currentTreasuryUSD": 36195384.010919854,
+        "currentLiquidTreasuryUSD": 36195384.010919854,
+        "metadata": {
+            "name": "Nouns DAO",
+            "website": "https://nouns.wtf",
+            "governanceSite": null,
+            "governanceForum": "https://discourse.nouns.wtf",
+            "category": "app",
+            "treasuries": [
+                "0x0BC3807Ec262cB779b38D65b38158acC3bfedE10"
+            ]
+        }
+    },
+    {
+        "name": "olympus",
+        "currentTreasuryUSD": 225604822.39068076,
+        "currentLiquidTreasuryUSD": 225604822.39068076,
+        "metadata": {
+            "name": "Olympus DAO",
+            "website": "https://olympusdao.finance",
+            "governanceSite": "https://snapshot.org/#/olympusdao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x9A315BdF513367C0377FB36545857d12e85813Ef",
+                "0x31F8Cc382c9898b273eff4e0b7626a6987C846E8",
+                "0xde7b85f52577b113181921a7aa8fc0c22e309475",
+                "0xdbf0683fc4fc8ac11e64a6817d3285ec4f2fc42d",
+                "0x3df5a355457db3a4b5c744b8623a7721bf56df78",
+                "0xdFC95aaf0a107DaAe2b350458DED4b7906E7f728",
+                "0x0316508a1b5abf1CAe42912Dc2C8B9774b682fFC",
+                "0x0e1177e47151Be72e5992E0975000E73Ab5fd9D4"
+            ]
+        }
+    },
+    {
+        "name": "paraswap",
+        "currentTreasuryUSD": 21603424.83789546,
+        "currentLiquidTreasuryUSD": 2849673.4925727816,
+        "metadata": {
+            "name": "Paraswap",
+            "website": "https://paraswap.io/",
+            "governanceForum": "https://gov.paraswap.network/",
+            "governanceSite": "https://snapshot.org/#/paraswap-dao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x5a61d9214adefd7669428a03a4e8734a00e9f464",
+                "0x6DF5e7b236a4F14e08C27E09202B4d1865905e9b",
+                "0x6a3CCa09b1C2B83834124c8646a68b9Bad2a07b9",
+                "0x348aa814a72970e76d5756a2cda16e7e8f245aab",
+                "0xb074094d2e858b25d129989644248f9f6946e081",
+                "0x51d2f2c65d043118eb4329fcbc738943f494609f"
+            ]
+        }
+    },
+    {
+        "name": "piedao",
+        "currentTreasuryUSD": 1928532.977599851,
+        "currentLiquidTreasuryUSD": 1928532.977599851,
+        "metadata": {
+            "name": "PieDAO",
+            "website": "https://piedao.org",
+            "governanceForum": "https://forum.piedao.org/",
+            "governanceSite": "https://snapshot.org/#/piedao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x3bcf3db69897125aa61496fc8a8b55a5e3f245d5"
+            ]
+        }
+    },
+    {
+        "name": "perpetual",
+        "currentTreasuryUSD": 1903511.6780530834,
+        "currentLiquidTreasuryUSD": 1903511.6780530834,
+        "metadata": {
+            "name": "Perpetual Protocol",
+            "website": "https://www.perp.com/",
+            "governanceForum": "https://gov.perp.fi/",
+            "governanceSite": "https://snapshot.org/#/vote-perp.eth",
+            "category": "app",
+            "treasuries": [
+                "0xd374225abb84dca94e121f0b8a06b93e39ad7a99"
+            ]
+        }
+    },
+    {
+        "name": "pleaserdao",
+        "currentTreasuryUSD": 3725761.2968041967,
+        "currentLiquidTreasuryUSD": 3725761.2968041967,
+        "metadata": {
+            "name": "PleaserDAO",
+            "website": "https://pleasr.org/",
+            "governanceSite": null,
+            "category": "app",
+            "treasuries": [
+                "0xf5c27c6fe782cbb5c85989ea3e75754748153459"
+            ]
+        }
+    },
+    {
+        "name": "primedao",
+        "currentTreasuryUSD": 4973953.176090113,
+        "currentLiquidTreasuryUSD": 4973953.176090113,
+        "metadata": {
+            "name": "PrimeDAO",
+            "website": "https://www.prime.xyz/",
+            "governanceForum": "https://forum.prime.xyz/",
+            "governanceSite": "https://snapshot.org/#/primexyz.eth",
+            "category": "app",
+            "treasuries": [
+                "0x567d220B0169836cBF351DF70A9c517096ec9De7"
+            ]
+        }
+    },
+    {
+        "name": "radicle",
+        "currentTreasuryUSD": 130954905.2736172,
+        "currentLiquidTreasuryUSD": 130954905.2736172,
+        "metadata": {
+            "name": "Radicle",
+            "website": "https://radicle.xyz/",
+            "governanceForum": "https://radicle.community/",
+            "governanceSite": "https://snapshot.org/#/gov.radicle.eth",
+            "category": "app",
+            "treasuries": [
+                "0x8da8f82d2bbdd896822de723f55d6edf416130ba"
+            ]
+        }
+    },
+    {
+        "name": "rarible",
+        "currentTreasuryUSD": 40296103.715398,
+        "currentLiquidTreasuryUSD": 40296103.715398,
+        "metadata": {
+            "name": "Rarible",
+            "website": "https://rarible.com/",
+            "governanceForum": "https://gov.rarible.org/",
+            "governanceSite": "https://snapshot.org/#/rarible.eth",
+            "category": "app",
+            "treasuries": [
+                "0xfdff6b56cce39482032b27140252ff4f16432785",
+                "0x1cf0df2a5a20cd61d68d4489eebbf85b8d39e18a"
+            ]
+        }
+    },
+    {
+        "name": "shapeshift",
+        "currentTreasuryUSD": 14179625.726013051,
+        "currentLiquidTreasuryUSD": 14179625.726013051,
+        "metadata": {
+            "name": "ShapeShift",
+            "website": "https://shapeshift.com",
+            "governanceForum": "https://forum.shapeshift.com",
+            "governanceSite": "https://snapshot.org/#/shapeshiftdao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x90A48D5CF7343B08dA12E067680B4C6dbfE551Be"
+            ]
+        }
+    },
+    {
+        "name": "stakeborg",
+        "currentTreasuryUSD": 2073163.136652862,
+        "currentLiquidTreasuryUSD": 2073163.136652862,
+        "metadata": {
+            "name": "Stakeborg DAO",
+            "website": "https://stakeborgdao.xyz/",
+            "governanceForum": "https://stakeborgdao.xyz/forums/",
+            "governanceSite": "https://snapshot.org/#/stakeborgdao.eth",
+            "category": "app",
+            "treasuries": [
+                "0xF0E1015C33dA062E53fEF545631e75eAD91a5456"
+            ]
+        }
+    },
+    {
+        "name": "Stargate",
+        "currentTreasuryUSD": 229103729.8710206,
+        "currentLiquidTreasuryUSD": 229103729.8710206,
+        "metadata": {
+            "name": "Stargate Finance",
+            "website": "https://stargate.finance",
+            "governanceForum": "https://commonwealth.im/stargatetoken",
+            "governanceSite": "https://snapshot.org/#/stgdao.eth",
+            "category": "app",
+            "treasuries": [
+                "0x65bb797c2B9830d891D87288F029ed8dACc19705",
+                "0x6e690075eedBC52244Dd4822D9F7887d4f27442F",
+                "0x2B065946d41ADf43BBc3BaF8118ae94Ed19D7A40",
+                "0x47290DE56E71DC6f46C26e50776fe86cc8b21656",
+                "0x9CD50907aeb5D16F29Bddf7e1aBb10018Ee8717d",
+                "0x392AC17A9028515a3bFA6CCe51F8b70306C6bd43",
+                "0x33B3639C51ABA98776673a42B95a02E444a4A9e5"
+            ]
+        }
+    },
+    {
+        "name": "sushi",
+        "currentTreasuryUSD": 17040200.66821535,
+        "currentLiquidTreasuryUSD": 17040200.66821535,
+        "metadata": {
+            "name": "SushiSwap",
+            "website": "https://sushi.com",
+            "governanceForum": "https://forum.sushi.com/",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/sushigov.eth",
+            "category": "app",
+            "treasuries": [
+                "0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3"
+            ]
+        }
+    },
+    {
+        "name": "synthetix",
+        "currentTreasuryUSD": 78468474.80470267,
+        "currentLiquidTreasuryUSD": 78468474.80470267,
+        "metadata": {
+            "name": "Synthetix",
+            "website": "https://synthetix.io",
+            "governanceSite": null,
+            "governanceForum": "https://research.synthetix.io",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0xEb3107117FEAd7de89Cd14D463D340A2E6917769",
+                "0x86626E1BbBd0ce95ED52e0C5E19f371a6640B591",
+                "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92"
+            ]
+        }
+    },
+    {
+        "name": "tempus",
+        "currentTreasuryUSD": 14332342.042328047,
+        "currentLiquidTreasuryUSD": 529363.9608261009,
+        "metadata": {
+            "name": "Tempus",
+            "website": "https://tempus.finance/",
+            "governanceSite": "https://snapshot.org/#/tempusgov.eth",
+            "governanceForum": "https://forum.tempus.finance/",
+            "category": "app",
+            "treasuries": [
+                "0xf41f9fC0B622Eb112445fD7b32fc5190d0c0D3f4",
+                "0xCa65E71EE7Fb8E85eDe0E7Ef30F029efa8FE4a08"
+            ]
+        }
+    },
+    {
+        "name": "tornado",
+        "currentTreasuryUSD": 33999579.13626298,
+        "currentLiquidTreasuryUSD": 8215676.768634432,
+        "metadata": {
+            "name": "Tornado Cash",
+            "website": "https://tornado.cash",
+            "governanceSite": null,
+            "governanceForum": "https://torn.community",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
+                "0x179f48C78f57A3A78f0608cC9197B8972921d1D2"
+            ]
+        }
+    },
+    {
+        "name": "uniswap",
+        "currentTreasuryUSD": 2635558548.345099,
+        "currentLiquidTreasuryUSD": 1720832894.3038254,
+        "metadata": {
+            "name": "Uniswap",
+            "website": "https://uniswap.org",
+            "governanceSite": null,
+            "governanceForum": "https://gov.uniswap.org",
+            "governanceModel": "",
+            "category": "app",
+            "treasuries": [
+                "0x1a9c8182c09f50c8318d769245bea52c32be35bc",
+                "0x4750c43867ef5f89869132eccf19b9b6c4286e1a",
+                "0xe3953d9d317b834592ab58ab2c7a6ad22b54075d",
+                "0x4b4e140d1f131fdad6fb59c13af796fd194e4135",
+                "0x3d30b1ab88d487b0f3061f40de76845bec3f1e94"
+            ]
+        }
+    },
+    {
+        "name": "unslashed",
+        "currentTreasuryUSD": 1071466.6892599117,
+        "currentLiquidTreasuryUSD": 1071466.6892599117,
+        "metadata": {
+            "name": "Unslashed Finance",
+            "website": "https://unslashed.finance/",
+            "governanceForum": "https://forum.unslashed.finance/",
+            "governanceSite": "https://snapshot.org/#/unslashed.eth",
+            "category": "app",
+            "treasuries": [
+                "0xf5be8b4c82b8a681bacf357cfb712ab9e9296cb2"
+            ]
+        }
+    },
+    {
+        "name": "yam",
+        "currentTreasuryUSD": 4256085.1060002,
+        "currentLiquidTreasuryUSD": 4256085.1060002,
+        "metadata": {
+            "name": "Yam Finance",
+            "website": "https://yam.finance",
+            "governanceForum": "https://forum.yam.finance",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/yam",
+            "category": "app",
+            "treasuries": [
+                "0x97990B693835da58A281636296D2Bf02787DEa17",
+                "0xd67c05523d8ec1c60760fd017ef006b9f6e496d0",
+                "0x205cc7463267861002b27021c7108bc230603d0f",
+                "0xd67c05523d8ec1c60760fd017ef006b9f6e496d0"
+            ]
+        }
+    },
+    {
+        "name": "yearn",
+        "currentTreasuryUSD": 52362617.55403773,
+        "currentLiquidTreasuryUSD": 52362617.55403773,
+        "metadata": {
+            "name": "Yearn",
+            "website": "https://yearn.finance",
+            "governanceForum": "https://gov.yearn.finance",
+            "governanceModel": "",
+            "governanceSite": "https://snapshot.org/#/yearn",
+            "category": "app",
+            "treasuries": [
+                "0xfeb4acf3df3cdea7399794d0869ef76a6efaff52",
+                "0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde",
+                "0xd42e1cb8b98382df7db43e0f09dfe57365659d16"
+            ]
+        }
+    },
+    {
+        "name": "makerdao",
+        "currentTreasuryUSD": 135462573.9207896,
+        "currentLiquidTreasuryUSD": 135462573.9207896,
+        "metadata": {
+            "category": "app",
+            "name": "MakerDAO",
+            "website": "https://makerdao.com",
+            "governanceSite": "https://vote.makerdao.com",
+            "governanceForum": "https://forum.makerdao.com",
+            "governanceModel": "",
+            "treasuries": [
+                "0xbe8e3e3618f7474f8cb1d074a26affef007e98fb"
+            ]
+        }
+    },
+    {
+        "name": "aave",
+        "currentTreasuryUSD": 126940655.41688438,
+        "currentLiquidTreasuryUSD": 126940655.41688438,
+        "metadata": {
+            "category": "app",
+            "name": "Aave",
+            "website": "https://aave.com",
+            "governanceSite": "https://app.aave.com/governance",
+            "governanceForum": "https://governance.aave.com",
+            "governanceModel": "",
+            "treasuries": [
+                "0x25F2226B597E8F9514B3F68F00f494cF4f286491",
+                "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c"
+            ]
+        }
+    },
+    {
+        "name": "gnosisdao",
+        "currentTreasuryUSD": 1038005017.8233973,
+        "currentLiquidTreasuryUSD": 217953304.6730271,
+        "metadata": {
+            "name": "GnosisDAO",
+            "description": "GnosisDAO is a collective that uses Gnosis products to transparently guide decisions on development, support, and governance of its token ecosystem.",
+            "website": "https://gnosis.io/gnosisdao/",
+            "governanceSite": "https://snapshot.org/#/gnosis.eth",
+            "governanceForum": "https://forum.gnosis.io/",
+            "governanceModel": "",
+            "category": "",
+            "treasuries": [
+                "0x458cD345B4C05e8DF39d0A07220feb4Ec19F5e6f",
+                "0x10E4597fF93cbee194F4879f8f1d54a370DB6969",
+                "0x4971DD016127F390a3EF6b956Ff944d0E2e1e462",
+                "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe",
+                "0xfa5dcf356a2d80cf0c89d64a18a742edaf8d30e8",
+                "0x849D52316331967b6fF1198e5E32A0eB168D039d",
+                "0xbc79855178842fdba0c353494895deef509e26bb",
+                "0xec83f750adfe0e52a8b0dba6eeb6be5ba0bee535"
+            ]
+        }
+    },
+    {
+        "name": "pooltogether",
+        "currentTreasuryUSD": 4804652.055070647,
+        "currentLiquidTreasuryUSD": 3354078.0232825503,
+        "metadata": {
+            "name": "PoolTogether",
+            "website": "https://pooltogether.com",
+            "governanceSite": "https://vote.pooltogether.com/",
+            "treasuries": [
+                "0x42cd8312D2BCe04277dD5161832460e95b24262E",
+                "0x21950E281bDE1714ffd1062ed17c56D4D8de2359"
+            ]
+        }
+    },
+    {
+        "name": "bzx",
+        "currentTreasuryUSD": 4179582.915219164,
+        "currentLiquidTreasuryUSD": 4179582.9152191635,
+        "metadata": {
+            "name": "bZx",
+            "website": "https://bzx.network",
+            "governanceForum": "https://forum.bzx.network",
+            "governanceSite": "https://snapshot.org/#/bzx.eth",
+            "treasuries": [
+                "0xfedC4dD5247B93feb41e899A09C44cFaBec29Cbc"
+            ]
+        }
+    },
+    {
+        "name": "dxdao",
+        "currentTreasuryUSD": 50949597.13504532,
+        "currentLiquidTreasuryUSD": 50949597.13504532,
+        "metadata": {
+            "name": "DXdao",
+            "description": "DXdao is a decentralized collective that builds and governs decentralized products and services.",
+            "website": "https://dxdao.eth.link",
+            "governanceSite": "https://alchemy.daostack.io/dao/0x519b70055af55a007110b4ff99b0ea33071c720a",
+            "governanceForum": "https://daotalk.org/c/dx-dao",
+            "governanceModel": "",
+            "treasuries": [
+                "0x519b70055af55a007110b4ff99b0ea33071c720a",
+                "0xa1d65e8fb6e87b60feccbc582f7f97804b725521"
+            ]
+        }
+    }
+]

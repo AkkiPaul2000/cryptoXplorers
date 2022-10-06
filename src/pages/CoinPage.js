@@ -6,8 +6,13 @@ import { CryptoState } from '../CryptoContext';
 import { useState, useEffect } from 'react';
 import { LinearProgress, makeStyles, Typography } from '@material-ui/core';
 import CoinInfo from '../components/CoinInfo';
+
+import data from '../Data/data.json'
+
 // import HTMLReactParser from 'html-react-parser';
 // import parse from 'html-react-parser';
+
+
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -21,14 +26,13 @@ function CoinPage() {
   const fetchCoin=async()=>{
     const {data}=await axios.get(SingleCoin(id))
     setCoin(data)
-    console.log(data.price);
   }
 
-    //  console.log(coin?.description)
+  //  console.log(coin?.description)
+
   useEffect(() => {
     fetchCoin();
     console.log(coin?.market_data);
-
   }, [])
 
   const useStyles=makeStyles((theme)=>({
@@ -86,7 +90,6 @@ function CoinPage() {
       [theme.breakpoints.down("xs")]:{
         alignItems: "start",
       },
-
     }
   }))
 
@@ -159,8 +162,24 @@ function CoinPage() {
               M
             </Typography>
           </span>
-
+                
         </div>
+        <div className={classes.marketData}>
+        <span >
+            {/* <Typography variant="h5" className={classes.heading}> */}
+              Info
+            {/* </Typography> */}
+            {/* {console.log(data)} */}
+            {data && data.map(({name,currentLiquidTreasuryUSD})=>{
+              {console.log(name,currentLiquidTreasuryUSD)}
+              <h1>{name}</h1>
+            })}
+          </span>
+          
+            
+           
+          
+          </div>      
       </div>
       
         

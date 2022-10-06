@@ -4,21 +4,21 @@ import { Line } from 'rc-progress';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import { CryptoState } from '../CryptoContext';
+import clsx from 'clsx';
 
-function getPercentageIncrease(numA, numB) {
-  return ((numA - numB) / numB) * 100;
-}
 
-function BarLevel({max,min,days}) {
+function BarLevel({max,min,days,perci}) {
   const {symbol}=CryptoState()
-  getPercentageIncrease(max)
+  // console.log(perci);
+  const barPerc=(max-min)/min*100;  //Experimental
+  console.log("bar percentage",barPerc)
   const useStyles=makeStyles(()=>({
       container:{
           width:"100%",
           display: "flex",
           justifyContent: "space-around",
           alignItems:"center",
-          marginBottom:20,
+          marginBottom:10,
       },
       stats:{
         width:"100%",
@@ -33,10 +33,12 @@ function BarLevel({max,min,days}) {
           fontFamily: "Montserrat",
           color:"gold",
           fontWeight:"bolder",
-          fontSize:30,
+          fontSize:26,
           // fontSize:50,
         },
-
+        change:{
+          justifyContent:"center",
+        },
         bar:{
             width:"60%",
             padding: 10,
@@ -55,8 +57,6 @@ function BarLevel({max,min,days}) {
 <div
 className={classes.container}
 >
-
-
       <p>
       {days===1 && 
       <span className={classes.rangeText}>24h Low</span>}
@@ -69,10 +69,7 @@ className={classes.container}
       <br></br> 
         <span className={classes.rangeValue}>{symbol}{min.toFixed(2)}</span>
       </p>
-  
-
-
-     <Line className={classes.bar} percent={10} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" #FFD700" />
+     <Line className={classes.bar} percent={barPerc} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" #FFD700" />
      <p>
       {days===1 && 
       <span className={classes.rangeText}>24h High</span>}
@@ -85,11 +82,17 @@ className={classes.container}
       <br></br> 
         <span className={classes.rangeValue}>{symbol}{max.toFixed(2)}</span>
       </p>
-      
-      </div>
-
+    </div>
+    <div className={clsx(classes.container,classes.rangeValue,classes.change)}>
+    {perci}
+    {perci.slice(0,1)==="+"?
     <TrendingUpIcon sx={{ fontSize: 40,color:"gold",opacity:0.5}}  />
-      </div>
+    :
+    <TrendingDownIcon sx={{ fontSize: 40,color:"gold",opacity:0.5}}  />
+    }
+    
+    </div>
+  </div>
   )
 }
 

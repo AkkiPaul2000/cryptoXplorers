@@ -43,13 +43,24 @@ export const options = {
     },
   };
 
+  function perci(nowPrice,startPrice) {
+    let change
+    var percDiff =  100 * Math.abs( (nowPrice - startPrice) / ( (nowPrice+startPrice)/2 ) );
+    if(nowPrice>startPrice) {
+        change = "+"+percDiff.toFixed(2)+"%";
+    } else {
+        change = "-"+percDiff.toFixed(2)+"%";
+    }
+    return change
+}
+
 function CoinInfo({coin}) {
     const [historicData, setHistoricData] = useState()
     const [days, setDays] = useState(1)
     const {currency}=CryptoState()
     const [mini, setMini] = useState(9999999999)
     const [maxi, setMaxi] = useState(0)
-    
+    const [coinValue, setCoinValue] = useState(0)
 
     const fetchHistoricData=async()=>{
         const {data}=await axios.get(HistoricalChart(coin.id,days,currency))
@@ -61,7 +72,8 @@ function CoinInfo({coin}) {
         let minimum=Number.MAX_VALUE
         let maximum=0
         if(prices!=undefined){
-         console.log(coin);
+         setCoinValue(coin?.market_data.current_price[currency.toLowerCase()]);
+         
         prices.map((coin) => {
           
           if(minimum>coin[1]){
@@ -74,11 +86,15 @@ function CoinInfo({coin}) {
         setMaxi(maximum);
         setMini(minimum)
       }
+      
        
     }
 
     useEffect(() => {
       fetchHistoricData()
+      
+
+        
     }, [currency,days])
     
     const darkTheme=createTheme({
@@ -97,7 +113,7 @@ function CoinInfo({coin}) {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        // marginTop: 10,
+        marginTop: 15,
 
         padding: 40,
         paddingTop:2,
@@ -186,8 +202,8 @@ function CoinInfo({coin}) {
               width:"100%",
             }}
             >
-
-            <BarLevel min={mini} max={maxi} days={days} />
+            {coinValue && historicData && <BarLevel min={mini} max={maxi} days={days} perci={perci(coinValue,historicData[0][1])} />}
+            
             </div>
             <div
             style={{
