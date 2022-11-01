@@ -7,10 +7,11 @@ import { useState, useEffect } from 'react';
 import { LinearProgress, makeStyles, Typography } from '@material-ui/core';
 import CoinInfo from '../components/CoinInfo';
 
-import data from '../Data/data.json'
+import dataPrice from '../Data/data_price_action.json'
 
 // import HTMLReactParser from 'html-react-parser';
 // import parse from 'html-react-parser';
+import MoreInfo from './../components/MoreInfo';
 
 
 function numberWithCommas(x) {
@@ -32,10 +33,27 @@ function CoinPage() {
 
   useEffect(() => {
     fetchCoin();
-    console.log(coin?.market_data);
+    // console.log(coin?.market_data);
   }, [])
 
   const useStyles=makeStyles((theme)=>({
+
+    contain: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(12, 1fr)',
+      gridGap: theme.spacing(3),
+    },
+    paper: {
+      padding: theme.spacing(1),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+      whiteSpace: 'nowrap',
+      marginBottom: theme.spacing(1),
+    },
+    divider: {
+      margin: theme.spacing(2, 0),
+    },
+
     container:{
       display: "flex",
       
@@ -167,13 +185,16 @@ function CoinPage() {
         <div className={classes.marketData}>
         <span >
             {/* <Typography variant="h5" className={classes.heading}> */}
-              Info
+              {/* Info */}
             {/* </Typography> */}
-            {/* {console.log(data)} */}
-            {data && data.map(({name,currentLiquidTreasuryUSD})=>{
-              {console.log(name,currentLiquidTreasuryUSD)}
+            {/* {dataPrice && dataPrice.map(({name})=>{
+              {console.log(name)}
               <h1>{name}</h1>
-            })}
+            })} */}
+
+            {dataPrice.bitcoin && <MoreInfo dataInfo={dataPrice.bitcoin} /> }
+
+
           </span>
           
             

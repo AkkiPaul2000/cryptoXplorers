@@ -72,7 +72,8 @@ function Carousel() {
                         fontWeight:500,
                     }}
                     >
-                        {profit && "+"}{coin?.price_change_percentage_24h?.toFixed(2)}
+                        {profit ? "+" : "-"}{coin?.price_change_percentage_24h?.toFixed(2)+"%"}
+
                     </span>
                 </span>
                 <span style={{fonstsize:22,fontweight:500}}>

@@ -46,11 +46,14 @@ export const options = {
   function perci(nowPrice,startPrice) {
     let change
     var percDiff =  100 * Math.abs( (nowPrice - startPrice) / ( (nowPrice+startPrice)/2 ) );
+
     if(nowPrice>startPrice) {
         change = "+"+percDiff.toFixed(2)+"%";
     } else {
         change = "-"+percDiff.toFixed(2)+"%";
     }
+    console.log("NowPrice ",nowPrice,"StartPrice ",startPrice,"Change",change)
+
     return change
 }
 
@@ -71,7 +74,7 @@ function CoinInfo({coin}) {
         
         let minimum=Number.MAX_VALUE
         let maximum=0
-        if(prices!=undefined){
+        if(prices!=undefined){ //warning coz = need to see
          setCoinValue(coin?.market_data.current_price[currency.toLowerCase()]);
          
         prices.map((coin) => {

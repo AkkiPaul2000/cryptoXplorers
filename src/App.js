@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from './components/Header';
 import CoinPage from './pages/CoinPage';
 import { makeStyles } from '@material-ui/core';
+import TreasuryPage from './pages/TreasuryPage';
 
 const useStyles = makeStyles(() => ({
   App: {
@@ -25,6 +26,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Homepage/>} exact ></Route>
         <Route path="/coins/:id" element={<CoinPage/>} ></Route>
+        <Route path='/treasury'  element={<TreasuryPage/>}></Route>
 
         </Routes>
       </div>

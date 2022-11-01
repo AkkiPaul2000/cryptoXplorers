@@ -9,9 +9,10 @@ import clsx from 'clsx';
 
 function BarLevel({max,min,days,perci}) {
   const {symbol}=CryptoState()
-  // console.log(perci);
+  
   const barPerc=(max-min)/min*100;  //Experimental
-  console.log("bar percentage",barPerc)
+  console.log("Max ",max,"Min ",min,"Days ",days,"Perci ",perci,"barPerc ",barPerc);
+  // console.log("bar percentage",barPerc)
   const useStyles=makeStyles(()=>({
       container:{
           width:"100%",
@@ -46,7 +47,7 @@ function BarLevel({max,min,days,perci}) {
             borderRight:"2px solid grey",
             border:"2px solid grey",
 
-          }
+          },
     })
         );
     const classes=useStyles();
@@ -69,7 +70,13 @@ className={classes.container}
       <br></br> 
         <span className={classes.rangeValue}>{symbol}{min.toFixed(2)}</span>
       </p>
-     <Line className={classes.bar} percent={barPerc} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" #FFD700" />
+      {console.log("2nd Line"+barPerc)}
+      {perci.slice(0,1)==="+"?
+      <Line className={classes.bar} percent={perci.slice(1, -2)} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" #FFD700" />
+    :
+    <Line className={classes.bar} percent={perci.slice(1, -2)} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" red" />
+    }
+     {/* <Line className={classes.bar} percent={perci.slice(1, -2)} strokeWidth={4} trailWidth={4} trailColor="transparent" strokeColor=" #FFD700" /> */}
      <p>
       {days===1 && 
       <span className={classes.rangeText}>24h High</span>}
@@ -88,7 +95,7 @@ className={classes.container}
     {perci.slice(0,1)==="+"?
     <TrendingUpIcon sx={{ fontSize: 40,color:"gold",opacity:0.5}}  />
     :
-    <TrendingDownIcon sx={{ fontSize: 40,color:"gold",opacity:0.5}}  />
+    <TrendingDownIcon sx={{ fontSize: 40,color:"red",opacity:0.5}}  />
     }
     
     </div>
